@@ -1,0 +1,204 @@
+@font-face {
+  font-family: cRegular;
+  src: url("../fonts/AurulentSans-Regular.otf");
+}
+@font-face {
+  font-family: cBold;
+  src: url("../fonts/AurulentSans-Bold.otf");
+}
+@font-face {
+  font-family: cThin;
+  src: url("../fonts/AurulentSans-Italic.otf");
+}
+html body{
+  background: #f2f2f2;
+}
+.contenedor{
+  max-width: 900px;
+  min-width: 900px;
+  margin: auto;
+}
+
+.header{
+  width: 80%;
+  margin: auto;
+  overflow: auto;
+  background: white;
+  padding: 10px 50px 50px 50px;
+  box-shadow: 0 5px 5px rgba(0,0,0,0.3);
+}
+
+.header h1{
+  text-align: right;
+  font-family: cBold;
+}
+.header img{
+  border-radius: 80px;
+  float: left;
+}
+.header h2{
+  text-align: center;
+  float: left;
+  margin-left: 90px;
+  font-family: cRegular;
+  font-weight: normal;
+}
+.header .datosPersonales01{
+  float: left;
+  margin-left: 70px;
+  margin-top: 20px;
+}
+
+.header .datosPersonales01 p i, .header .datosPersonales02 p i{
+  margin-right: 20px;
+}
+.header .datosPersonales02{
+  float: left;
+}
+
+/*
+* Fuera del header
+*/
+.segundoContenedor{
+  max-width: 720px;
+  min-width: 720px;
+  margin: auto;
+  padding: 50px;
+}
+.segundoContenedor h2{
+  font-family: cRegular;
+  font-weight: normal;
+  max-width: 400px;
+}
+.segundoContenedor h2.competencia{
+  padding-top: 200px;
+
+}
+.segundoContenedor h2.tituloExperiencia{
+  padding-top: 240px;
+
+}
+
+
+.segundoContenedor .contenido{
+  width: 90%;
+  padding: 20px;
+}
+
+.segundoContenedor .contenido p.campoProf{
+  font-size: 1.2em;
+}
+.segundoContenedor .contenido .aptitudes{
+  width: 80%;
+}
+
+.segundoContenedor .contenido .aptitudes .aptitud{
+  width: 30%;
+  float: left;
+  padding-left: 10px;
+  font-size: 15px;
+  margin: 10px;
+}
+
+/*
+* Experiencia y formación
+*/
+
+.experiencia, .formacion, .dote{
+  width: 90%;
+  margin-bottom: 150px;
+}
+
+.dote{
+  height: auto;
+  margin: 0;
+  margin-bottom: 50px;
+  overflow: auto;
+}
+.dote:first-child{
+  margin-top: -40px !important;
+} 
+.experiencia .fecha, .formacion .fecha, .dote .titulo{
+  width: 30%;
+  float: left;
+  height: 100%;
+  color: #3f7589;
+}
+
+.experiencia .datos, .formacion .datos{
+  width: 70%;
+  float: left;
+  height: 100%;
+  margin-top: -10px;
+}
+.dote .datos{
+ width: 70%;float: left;
+  
+}
+
+.experiencia .datos h3, .formacion .datos h3{
+  font-size: 1.4em;
+  font-weight: normal;
+  font-family: cRegular;
+  margin: 10px 0 20px 0;
+  line-height: 1.3em;
+}
+
+.experiencia .datos p, .formacion .datos p{
+  margin-left: 2em;
+}
+
+
+
+.experiencia .datos ul li, .formacion .datos ul li{
+  margin-left: -3em;
+  margin-bottom: 1em;
+  list-style: none;
+}
+
+.experiencia .datos ul li i, .formacion .datos ul li i{
+  margin-right: 1em;
+}
+
+.idiomas{
+  width: 90%;
+}
+.idiomas h4{
+  margin: 0;
+  padding: 0;
+}
+.idiomas h4 i{
+  margin-right: 1em; 
+  margin-top: 0.2em;
+}
+.idiomas .contenido{
+  width: 90%;
+  margin-left: 25%;
+  margin-top: -2.7em;
+}
+
+/*
+* Bases
+*/
+
+.baseGranate{
+  border-bottom: 3px solid #8c4040;
+}
+.baseAzul{
+  border-bottom: 3px solid #3f7589;
+}
+.baseVerde{
+  border-bottom: 3px solid #466644;
+}
+.baseAmarilla{
+  border-bottom: 3px solid #ebef00;
+}
+
+.enlacePdf {
+  width: 160px;
+  height: 30px;
+  margin: -40px auto;
+}
+.enlacePdf i{
+  margin-right: 14px;
+}
