@@ -90,6 +90,7 @@ html body{
 }
 .segundoContenedor .contenido .aptitudes{
   width: 80%;
+  min-height: 100px;
 }
 
 .segundoContenedor .contenido .aptitudes .aptitud{
